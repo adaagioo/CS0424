@@ -1,18 +1,18 @@
 import math
-
-#Funzione che calcola il perimetro del quadrato dato il lato
+ 
+# Funzione che calcola il perimetro del quadrato dato il lato
 def perimetro_quadrato(lato):
     return lato * 4
   
-#Funzione per la circonferenza dato il raggio
+# Funzione per la circonferenza dato il raggio
 def perimetro_cerchio(raggio):
     return 2 * math.pi * raggio
   
-#Funzione per il perimetro del rettangolo dato base e altezza
+# Funzione per il perimetro del rettangolo dato base e altezza
 def perimetro_rettangolo(base, altezza):
     return 2 * (base + altezza)
   
-#Funzione per richiedere e verificare che l'input sia valido
+# Funzione per richiedere e verificare che l'input sia valido
 def richiedi_float(messaggio):
     while True:
         try: #richiede l'input e lo converte in float
@@ -24,7 +24,7 @@ def richiedi_float(messaggio):
             #Gestisce gli errori di input e richiede nuovamente l'input.
             print(f"Errore di input: {e}. Riprova.")
           
-#Funzione principale che gestisce il menu
+# Funzione principale che gestisce il menù
 def main():
     while True:
         # Mostra il menù
@@ -34,10 +34,10 @@ def main():
         print("3. Rettangolo")
         print("4. Gattino matematico")
         print("5. Esci")
-#Richiede la scelta dell'utente
+# Richiede la scelta dell'utente
         scelta = input("Inserisci il numero della tua scelta: ")
       
-#Gestisce le varie scelte date in input dall'utente
+# Gestisce le varie scelte date in input dall'utente
         if scelta == '1':
             lato = richiedi_float("Inserisci la lunghezza del lato del quadrato: ")
             print(f"Il perimetro del quadrato è: {perimetro_quadrato(lato)}")
