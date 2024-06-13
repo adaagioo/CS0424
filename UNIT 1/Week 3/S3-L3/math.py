@@ -59,7 +59,7 @@ def main():
             \\---------/
             """)
         elif scelta == '5':
-            print("Uscita dal programma.")
+            print("What's the offial animal of Pi day? The Py-thon! Ciao!")
             break
         else:
             print("Scelta non valida. Riprova.")
