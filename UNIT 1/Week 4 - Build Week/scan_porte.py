@@ -70,8 +70,3 @@ def identifica_servizio(risposta):
 if __name__ == "__main__":
     main()
 
-Funzionamento del Codice
-Input dell'utente: Richiede l'indirizzo IP e il range di porte da scansionare.
-Scansione delle porte: Controlla ogni porta nel range specificato per vedere se è aperta, chiusa o filtrata.
-Identificazione del servizio: Tenta di identificare il servizio in esecuzione sulla porta aperta basandosi sulla risposta ricevuta.
-Output delle porte filtrate: Chiede all'utente se desidera visualizzare la lista delle porte filtrate e le stampa se richiesto.
