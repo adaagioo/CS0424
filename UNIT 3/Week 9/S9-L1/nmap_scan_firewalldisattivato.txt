@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Tue Jul 23 11:14:15 2024 as: nmap -sV -o nmap_scan_firewalldisattivato.txt 192.168.240.150
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.240.150
+Host is up (0.0019s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Microsoft Windows XP microsoft-ds
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 23 11:14:23 2024 -- 1 IP address (1 host up) scanned in 7.40 seconds
